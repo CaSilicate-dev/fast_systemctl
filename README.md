@@ -35,10 +35,14 @@ original command: `systemctl start sshd`, simplified command: `sc l sshd`
 | `m`                | `mask`            |                                                                                                                                         |
 | `um`               | `unmask`          |                                                                                                                                         |
 | `dr`               | `daemon-reload`   |                                                                                                                                         |
-| `drx`              | `daemon-reexec`   | I used `drx` instead of `dre` because the 'r' and 'e' keys are too close together, which may lead to typing errors                      |
+| `dx`               | `daemon-reexec`   | I used `drx` instead of `dre` because the 'r' and 'e' keys are too close together, which may lead to typing errors                      |
 | `ls`               | `list-units`      |                                                                                                                                         |
 | `lf`               | `list-unit-files` |                                                                                                                                         |
-
+| `lt`               | `list-timers`     |                                                                                                                                         |
+| `en`               | `enable --now`    |                                                                                                                                         |
+| `lg`               | `journalctl -eu`  | This is a journalctl command                                                                                                            |
+| `ia`               | `is-active`       |                                                                                                                                         |
+| `ie`               | `is-enabled`      |                                                                                                                                         |       
 ## Bash Completion
 
 write the code into .bashrc

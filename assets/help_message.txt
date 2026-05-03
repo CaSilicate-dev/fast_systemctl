@@ -10,5 +10,15 @@ e   enable
 ue  disable
 m   mask
 um  unmask
+dr  daemon-reload
+dx daemon-reexec
 ls  list-units
 lf  list-unit-files
+lt  list-timers
+en  enable --now
+lg  journalctl -eu
+ia  is-active
+ie  is-enabled
+
+unsupported commands will be passed through to systemctl
+example: sc edit sshd = systemctl edit sshd
