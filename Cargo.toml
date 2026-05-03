@@ -1,0 +1,18 @@
+[package]
+name = "fast_systemctl"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "sc"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+opt-level = "s"
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
+
+[dependencies]
+colored = "3.1.1"
