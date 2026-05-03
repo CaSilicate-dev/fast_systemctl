@@ -79,25 +79,25 @@ original command: `systemctl start sshd`, simplified command: `sc l sshd`
 
 ### All supported abbreviations
 
-| simplified command | original command  | remark                                                                                                             |
-|--------------------|-------------------|--------------------------------------------------------------------------------------------------------------------|
-| `l`                | `start`           | Prevent typing errors caused by pressing the `s` multiple times. The first letter of "launch"                      |
-| `p`                | `stop`            | Same as `start`, the last letter of "stop"                                                                         |
-| `r`                | `restart`         |                                                                                                                    |
-| `t`                | `status`          | Same as `start`, the first letter of "trace"                                                                       |
-| `e`                | `enable`          |                                                                                                                    |
-| `ue`               | `disable`         | Prevent typing errors for `dr` and `de`, `ue` means "un-enable (disable)"                                          |
-| `m`                | `mask`            |                                                                                                                    |
-| `um`               | `unmask`          |                                                                                                                    |
-| `dr`               | `daemon-reload`   |                                                                                                                    |
-| `dx`               | `daemon-reexec`   | I used `drx` instead of `dre` because the 'r' and 'e' keys are too close together, which may lead to typing errors |
-| `ls`               | `list-units`      |                                                                                                                    |
-| `lf`               | `list-unit-files` |                                                                                                                    |
-| `lt`               | `list-timers`     |                                                                                                                    |
-| `en`               | `enable --now`    |                                                                                                                    |
-| `lg`               | `journalctl -eu`  | This is a `journalctl` command                                                                                     |
-| `ia`               | `is-active`       |                                                                                                                    |
-| `ie`               | `is-enabled`      |                                                                                                                    |
+| simplified command | original command  | remark                                                                                                           |
+|--------------------|-------------------|------------------------------------------------------------------------------------------------------------------|
+| `l`                | `start`           | Prevent typing errors caused by pressing the `s` multiple times. The first letter of "launch"                    |
+| `p`                | `stop`            | Same as `start`, the last letter of "stop"                                                                       |
+| `r`                | `restart`         |                                                                                                                  |
+| `t`                | `status`          | Same as `start`, the first letter of "trace"                                                                     |
+| `e`                | `enable`          |                                                                                                                  |
+| `ue`               | `disable`         | Prevent typing errors for `dr` and `de`, `ue` means "un-enable (disable)"                                        |
+| `m`                | `mask`            |                                                                                                                  |
+| `um`               | `unmask`          |                                                                                                                  |
+| `dr`               | `daemon-reload`   |                                                                                                                  |
+| `dx`               | `daemon-reexec`   | I used `dx` instead of `de` because the 'r' and 'e' keys are too close together, which may lead to typing errors |
+| `ls`               | `list-units`      |                                                                                                                  |
+| `lf`               | `list-unit-files` |                                                                                                                  |
+| `lt`               | `list-timers`     |                                                                                                                  |
+| `en`               | `enable --now`    |                                                                                                                  |
+| `lg`               | `journalctl -eu`  | This is a `journalctl` command                                                                                   |
+| `ia`               | `is-active`       |                                                                                                                  |
+| `ie`               | `is-enabled`      |                                                                                                                  |
 
 ## Bash Completion
 
