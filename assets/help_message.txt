@@ -1,0 +1,14 @@
+usage: <abbr> [other args]
+example: sc l sshd = systemctl start sshd
+
+All supported abbreviations:
+l   start
+p   stop
+r   restart
+t   status
+e   enable
+ue  disable
+m   mask
+um  unmask
+ls  list-units
+lf  list-unit-files
