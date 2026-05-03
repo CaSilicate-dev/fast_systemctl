@@ -27,7 +27,7 @@ original command: `systemctl start sshd`, simplified command: `sc l sshd`
 | simplified command | original command  | remark                                                                                                                                  |
 |--------------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | `l`                | `start`           | Prevent typing errors caused by pressing the `s` multiple times within a same area of the keyboard, I used the first letter of "launch" |
-| `p`                | `stop`            | Same as `start`, the first letter of "parking"                                                                                          |
+| `p`                | `stop`            | Same as `start`, the last letter of "stop"                                                                                              |
 | `r`                | `restart`         |                                                                                                                                         |
 | `t`                | `status`          | Same as `start`, the first letter of "trace"                                                                                            |
 | `e`                | `enable`          |                                                                                                                                         |
